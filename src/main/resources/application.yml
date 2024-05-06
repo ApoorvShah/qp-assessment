@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: grocery-app
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+
+server:
+  port: 9999
+  servlet:
+    context-path: /api/v1
+  shutdown: graceful
